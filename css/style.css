@@ -1,0 +1,737 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;    
+    }
+
+
+    header{
+        color:gray;
+        padding-top: 25px;
+        min-height: 50px;       
+        position: absolute;
+        width: 100%;
+       
+       }
+       
+       header a {
+        color:black;
+        text-decoration:none;
+        text-transform: uppercase;
+        font-size: 16px;
+       }
+      
+       /* header ul{
+       margin:0;
+       padding:0;
+       } */
+      
+       header li{
+        float: left;
+        display: inline;
+        padding:0 20px 0 20px;  
+        color:black;
+        text-transform: uppercase;
+        
+      }
+      
+      header #branding{
+        float: left;
+      }
+      
+      header #branding h1 {
+        margin-left: 120px;
+        margin-top: 15px;
+      }
+      
+      header nav{
+      float: right;
+      margin-top: 15px;
+      
+      }      
+          
+      header .highlight1 {
+        color:rgb(108, 167, 235);
+        font-weight: bold;
+        text-transform: uppercase;
+       
+      }
+      
+
+      header .highlight2 {
+        color:black;
+        font-weight: bold;
+        text-transform: uppercase;
+      
+        
+      }
+      header a:hover {
+       font-weight: bold;
+      }
+
+      header .current a {
+        color:black;
+        font-weight: bold;
+      }
+
+      header .headerImg{
+        float: left;
+       
+      }
+
+    
+
+      #showcase {
+        min-height: 740px;
+        background:url('../img/bg.png');
+        color:black;       
+        overflow:hidden;        
+        background-size: contain;
+        }
+
+
+        #showcase h1{
+          margin-top:30px;
+          margin-left: 120px;
+          font-weight: bold;
+          font-size: 60px;         
+        
+        }    
+
+        #showcase h2{
+            margin-top:-30px;
+            margin-left: 120px;
+            font-size: 40px;          
+          
+          }       
+
+         
+
+          
+  #showcase  .container{
+margin-top:0px;
+          }
+                    
+   .imgLft img{    
+    margin-top:200px;
+    margin-left:120px;
+              }        
+
+   .imgRht img{
+     border-radius: 50%;
+     float:right;
+ 
+   }
+
+        
+
+ .container .box {
+ background-color: black;
+ border: 1px solid black;         
+  padding: 10px;
+ color:white;
+  width:130px;
+ height:20px;
+ text-align: center;
+ font-size:14px;    
+ text-transform: uppercase;    
+  float:left;
+ margin-left:120px;
+        
+  }         
+
+
+.Rht{
+    margin-left:120px;
+ }
+
+ 
+   
+ 
+          
+ /* @media only screen and (max-width: 767px) {
+
+  .box{
+    width:65px;
+    height:10px;
+    text-align: center;
+    font-size:10px; 
+  }
+  .left {
+
+    margin-left:85px;
+    margin-top: -20px;
+    }
+
+    .right {
+
+      margin-left:1120px;
+      margin-top: -32px;
+      }
+
+
+} */
+
+.box1 {
+  background-color: white;
+  border: 1px solid white;         
+  padding: 10px; 
+  width:400px;
+  height:140px;
+  text-align: left;   
+  margin-top:50px;
+  float:left;  
+
+  }
+
+  .box1 p {
+    width:300px;
+    margin-top:30px;
+    margin-left:35px;
+    font-size:14px;    
+    color:rgb(136, 113, 113);
+  }
+
+  #showcasejob {
+    min-height: 300px;
+    overflow:hidden;       
+
+    }
+
+    #showcasejob .latestjobs{
+      font-size: 27px;
+      margin-left:120px;
+      margin-top:30px;
+      font-weight: bold;
+      color:rgb(70, 61, 61);
+
+    }
+
+    #showcasejob .jobpost{
+      font-size: 10px;
+      margin-left:120px;
+      margin-top:15px;
+      font-weight: bold;
+      color:rgb(136, 113, 113);
+      text-transform: uppercase;
+
+    }
+
+    /* #showcasejob .jobbanner{     
+       overflow:hidden;  
+       margin-left:1150px;
+       margin-top:-40px;
+     
+    } 
+         
+    #showcasejob .jobbanner img{
+      width: 90px;  
+  
+    } */
+
+    .hoz img{
+      width:100%;
+     }
+
+    .developer {
+      width: 120%;
+      margin: auto;
+      overflow: auto;
+     
+     }
+
+    #tbls{
+      margin-top: -130px;
+    }
+    
+    #tbls .tblhead{
+      float:left;
+      margin-left:120px;
+      width:22%;
+      text-align: left;
+      color:black;
+      font-size:14px;
+    }
+
+    #tbls .tbl{
+      float:left;
+      width:22%;
+      text-align: left;      
+      color:black;
+      font-size:14px;
+    }
+    
+
+
+
+    #tbls .jobtyp {        
+     
+      float:left;
+      color:rgb(240, 236, 236);
+      text-align: center;
+      position: relative;
+      height:18px;
+      padding:5px;
+
+      
+     
+    }  
+    
+    .php {
+      
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+
+     
+    
+    }
+
+    .lav {
+      
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .aws {
+      
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    
+    } 
+
+    .hori img{
+      width:250px;
+    }
+
+   
+    .tblimg{
+      float:left;
+      padding-top:5px;
+    }
+    
+    .tblimghd{
+      float:left;       
+    }
+   
+
+   #thalCd {
+     padding:60px;
+   }
+
+   #thalCd .thalLft{
+     width:40%;
+     margin-left: 50px;
+     float:left;     
+   }
+
+   #thalCd .thalLft h1{
+     font-size: 40px;
+   } 
+
+   #thalCd .thalLft p{
+    font-size: 14px;
+  } 
+
+  #thalCd .thalRht{
+   float:right;
+   width:40%;
+   margin-top:20px;
+   position: relative;
+
+  }
+
+  .thalTxt {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    transform: translate(-50%, -50%);    
+    font-size:180px;
+    color:white;
+    transform: rotate(0.40rad);
+  
+  }
+
+  .thalTxt1 {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translate(-50%, -50%);   
+    font-size:180px;
+    color:rgb(90, 145, 247);
+    transform: rotate(0.40rad);   
+   
+  }
+
+  .thalTxt2 {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-transform:uppercase;
+    font-size:40px;
+    color:white;
+  }
+
+  .thalTxt3 {
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-transform:uppercase;
+    font-size:40px;
+    color:white;
+  }
+
+  
+#ThlCdJobTy h1{
+text-align:center;
+font-size:40px;
+
+}
+
+#ThlCdJobTy .empy{
+margin-left: 500px;
+font-size:25px;
+text-transform: uppercase;
+}
+
+#ThlCdJobTy .candi{
+padding:30px;
+font-size:25px;
+text-transform: uppercase;
+color:gray;
+}
+
+#ThlCdJobTy h4{
+  text-align:center;
+  font-size:10px;
+  text-transform: uppercase;
+}
+  
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.right{
+  display: block;
+  margin-left:auto;
+  margin-right:50px;  
+}
+#ThlCdJobTy .num{
+  color:rgb(90, 145, 247);
+}
+
+#ThlCdJobTy h3{
+  color:black;
+}
+
+#ThlCdJobTy .ChosJobTy01{
+  float:left;
+  margin-left:120px;
+  margin-top:50px;
+  width:21%;
+  text-align: left;
+  color:gray;
+  font-size:14px;
+ 
+}
+
+#ThlCdJobTy .ChosJobTy{
+  float:left;
+  width:21%;
+  margin-top:50px;
+  text-align: left;      
+  color:gray;
+  font-size:14px;
+  
+}
+
+#ThlBg h1 {
+margin-left:120px;
+font-size:40px;
+}
+
+#ThlBg .btnCls h4 {
+  margin-left:120px;
+  text-transform: uppercase;
+  color:gray;
+  width:50%;
+  float:left;
+}
+
+#ThlBg .btnCls img{
+   float:right;
+}
+
+#ThlBg .tchgy{
+  margin-left:50px;
+  margin-top:10px;
+  width:50%;
+  float:left;
+
+}
+
+#ThlBg .tchgy h1 {
+  margin-left:0px;
+}
+
+.logo{
+  float:left;
+  padding:10px;
+
+}
+
+#ThlBg .logoRht{
+  float:right;
+  color:gray;
+  font-size:20px;
+  margin-top:20px;
+}
+
+#ThlBg p{
+  color:gray;
+}
+
+#ThlBg .tkytech{
+  width:35%;
+  float:right;
+}
+
+#ThlBg h2{
+  font-size:30px;
+}
+
+ .tch{ 
+  position: relative;
+}
+
+ .tchImg{
+  transform: translate(-50%, -50%);    
+  position: absolute;
+  top:40%;
+  left:60%;  
+  
+}
+
+.txt{
+  transform: translate(-50%, -50%);    
+  position: absolute;
+  top:50%;
+  left:60%;  
+  font-size:30px;
+  color:white;
+  text-transform: uppercase;
+}
+
+
+.date{
+  transform: translate(-50%, -50%);    
+  position: absolute;
+  top:60%;
+  left:60%;  
+  font-size:30px;
+  color:white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.techTch{
+  width:100%;
+ min-height:900px;
+}
+
+.gitTch{
+width:100%;
+}
+
+.dtaSic{
+  margin-left:50px; 
+  font-size:14px;
+  width:33%;
+  float:left;
+
+}
+
+.git{ 
+  width:60%;  
+  float:right;
+}
+#ThlBg .git h1 {
+  margin-left:0px;
+}
+
+#ThlHrdQr .ThlCnt {
+  width:100%;
+ min-height:1000px;
+}
+
+.CntLft{
+  width:40%;
+  margin-left:50px;
+  float:left;  
+}
+
+.CntLft h1{
+  font-size:45px;
+}
+
+.CntLft h2{
+  font-size:25px;
+}
+
+.CntLft .cnt{
+  font-weight:bolder;
+  text-transform: uppercase;
+}
+
+.CntLft h5{
+  color:gray;
+  text-transform: uppercase;
+}
+
+.CntRht {
+  width:40%;
+  float:right;
+  margin-right:50px;
+  margin-top:50px;
+}
+
+input{
+  width:80%;
+  height:60px;
+  margin-bottom:5px;
+
+}
+
+textarea{
+  width:80%;
+  height:200px;
+  margin-bottom:5px;
+}
+
+.btn {
+  
+  background-color:rgb(24, 24, 53) ;
+
+  font-size: 16px;
+  cursor: pointer;
+  width:81%;
+  color:white;
+  height:60px;
+  text-transform: uppercase;
+}
+
+.info{
+  width:100%;
+  min-height:330px;
+}
+
+.info h3{
+  text-transform: uppercase;
+  font-size:30px;
+
+}
+
+.info h5{
+  font-size:14px;
+}
+
+.InfoLft{  
+  float:left;
+ 
+}
+.InfoLft1{
+  
+  float:left;
+  margin-left:120px;
+  width:20%;
+}
+
+.InfoRht{
+  width:30%;
+  float:right;
+  
+}
+
+.CpyRht{
+  float:right;
+  text-transform:uppercase;
+  margin-right:100px;
+  font-size:14px;
+}
+
+    /* for tablet,phone size*/
+    @media only screen and (min-width: 480px) and (max-width: 1281px) { 
+
+      header #branding h1 {
+        margin-left: 50px;
+        margin-top: 15px;
+      }
+
+      #showcase h1 {
+          font-size: 35px;
+          margin-left:50px;
+      }
+   
+      #showcase h2{
+          font-size: 25px;
+          margin-left:50px;
+      }
+.box1{
+margin-left:50px;
+}
+
+.container .box {     
+width:60px;
+height:10px;     
+font-size:10px;        
+margin-left:50px;
+}
+      
+.imgLft img{    
+margin-top:200px;
+margin-left:50px;
+ }    
+
+
+  #tbls .tblhead{           
+      margin-left:50px;
+       width:20%;           
+  }
+      
+  #tbls .tbl{
+    float:left;
+    width:20%;         
+          
+ }       
+       
+ .hori img{
+  width:50px;
+ }   
+ 
+ #showcasejob .latestjobs{
+   margin-left:50px;
+ }
+
+ #showcasejob .jobpost{
+  margin-left:50px;
+ }
+
+ #showcasejob .jobbanner{   
+   margin-left:380px;
+ }
+ 
+ 
+   }
+
+
